@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Caveat', cursive, sans-serif;
-    background-color: orange;
+    background-color: rgba(16, 2, 65, 0.644);
 }
 
 .container{
@@ -21,17 +21,18 @@ body{
     min-height: 100vh;
     margin: auto;
     background-color: #fff;
-    box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.527);
+    box-shadow: 10px 10px 24px 0 rgba(29, 3, 90, 0.527);
 }
 
 .groceries h1{
     font-size: 2.5rem;
     margin-top: 1em;
+    color: rgb(28, 6, 82);
 }
 
 .groceries i{
     font-size: 2rem;
-    color: orange;
+    color: rgb(32, 4, 83);
 }
 
 .groceries input{
