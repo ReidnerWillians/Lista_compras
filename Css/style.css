@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 *{
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
 }
 
 body{
     font-family: 'Caveat', cursive, sans-serif;
-    background-color: rgba(16, 2, 65, 0.644);
+    background-color: rgba(212, 210, 235, 0.644);
 }
 
 .container{
-    border: 1px solid #000;
+    border: 1px solid rgb(17, 17, 17);
     width: 90%;
     margin:auto;
     display: flex;
@@ -20,29 +20,33 @@ body{
     width: 600px;
     min-height: 100vh;
     margin: auto;
-    background-color: #fff;
+    background-color: rgb(56, 28, 184);
     box-shadow: 10px 10px 24px 0 rgba(29, 3, 90, 0.527);
+    border-radius: 10px;
 }
 
 .groceries h1{
-    font-size: 2.5rem;
+    font-size: 4rem;
     margin-top: 1em;
-    color: rgb(28, 6, 82);
+    color: rgb(37, 27, 36);
 }
 
 .groceries i{
     font-size: 2rem;
-    color: rgb(32, 4, 83);
+    color: #7879b4;
 }
 
 .groceries input{
     font-family: inherit;
     outline: 0;
     border: 0;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid rgb(111, 99, 165);
     width: 70%;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 10px 0 0 10px;
+    color: rgb(76, 118, 196);
+    background-color: rgb(56, 28, 184);
+    border-radius: 10px;
 }
 
 #all_items{
@@ -50,6 +54,7 @@ body{
     margin-top: 10px;
     margin-right: 15px;
     font-size: 2rem;
+    color:rgb(76, 118, 196)
 }
 
 @media (max-width: 480px){
